@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'Custom';
+	src: url('subpear.ttf');
+}
+
+
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	border-color: #001f3f;
+	color: #000;
+	background: #fff;
+	font-family: "Custom", Bree+Serif;
+	font-size: 4vmin;
+        word-wrap: break-word;
+}
+
+.line {
+	border-bottom: 0.5vmin solid #c9b688;
+        margin-bottom: 1%;
+}
+
+.header {
+	background: #0078A8;
+	margin: 0px 0px 0px 0px;
+        padding: 1vmin 0vmin 1vmin 0vmin;
+	color: white;
+        width: 100%;
+	font-size: 5vmin
+}
+
+.time {
+	text-align: center;
+	background: #c9b688;
+	padding: 1.5vmin;
+	margin: 0vmin 0vmin 1vmin 0vmin;
+	color: black;
+}
+
+.notice {
+	text-align: center;
+	background: #E0F8F8;
+        padding: 1vmin;
+        font-weight: bold;
+	color: #a67c00;
+}
+center{
+  min-height:100%;
+    margin-bottom: -40px; /* Put negative height of the footer here */
+    padding-bottom: 90px;
+}
+.footer {
+  background: #0078A8;
+
+	padding: 0vmin 0vmin 1vmin 0vmin;
+        width:100%;
+        position: fixed;
+        bottom: 0px;
+	color: white;
+	font-size: 5vmin;
+}
+.fixed {
+	bottom: 0;
+	position: fixed;
+}
+fieldset {
+	border:1px solid #999;
+	border-radius:2vmin;
+	box-shadow: 0vmin 0vmin 2vmin #999;
+}
+
+legend {
+	background:#fff;
+}
+
+.text {
+  width: 90%;
+  height: 12vmin;
+  font-size: 4vmin;
+  padding: 12px 20px;
+  background-color: #fff;
+  margin: 2vmin 0;
+  color: red;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1vmin;
+  box-sizing: border-box;
+  
+}
+input[type=text] {
+  width: 90%;
+  height: 12vmin;
+  font-size: 4vmin;
+  padding: 1.2vmin 5vmin;
+  background-color: #fff;
+  margin: 2vmin 0;
+  color: red;
+  display: inline-block;
+  border: 0.2vmin solid #ccc;
+  border-radius: 1vmin;
+  box-sizing: border-box;
+  
+}
+
+input[type=text]:focus {
+    outline: none;
+    box-shadow: 0px 0px 1vmin #4CAF50;
+    border-color: #4CAF50;
+}
+
+.text:focus{
+    outline: none;
+    padding: 12px 20px;
+    box-shadow: 0px 0px 1vmin #4CAF50;
+    border-color: #4CAF50;
+}
+
+.select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 1vmin 0;
+  font-size: 4vmin;
+  color: red;
+  display: inline-block;
+  border: 0.2vmin solid #ccc;
+  border-radius: 1vmin;
+  box-sizing: border-box;
+  
+}
+
+.select:focus{
+    outline: none;
+    box-shadow: 0px 0px 1vmin #4CAF50;
+    border-color: #4CAF50;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  height: 12vmin;
+  font-size: 4vmin;
+  padding: 1.4vmin 2.0vmin;
+  margin: 2vmin 0vmin;
+  border: none;
+  border-radius: 1vmin;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+.button{
+ width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 1.vmin 2.0vmin;
+  margin: 2vmin 0vmin;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+	padding: 2vmin;
+	text-align: center;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.success {
+	padding: 2vmin;
+	text-align: center;
+	font-weight: bold;
+	color: #00ff00;
+}
+
+.missing {
+	padding: 2vmin;
+	text-align: center;
+	font-weight: bold;
+	color: #ffebe8;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+select{
+	width: 80%;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
