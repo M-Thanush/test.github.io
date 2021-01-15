@@ -55,8 +55,8 @@ center{
 
 	padding: 0vmin 0vmin 1vmin 0vmin;
         width:100%;
-        position: fixed;
-	color: pink;
+        
+	color: red;
 	font-size: 5vmin;
 }
 .fixed {
