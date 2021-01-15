@@ -56,12 +56,11 @@ center{
 	padding: 0vmin 0vmin 1vmin 0vmin;
         width:100%;
         position: fixed;
-        bottom: 0px;
-	color: white;
+	color: pink;
 	font-size: 5vmin;
 }
 .fixed {
-	bottom: 0;
+	bottom: 0px;
 	position: fixed;
 }
 fieldset {
